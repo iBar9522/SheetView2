@@ -1,3 +1,3 @@
 # SheetView2
 
-A description of this package.
+Description for version 1.0.0

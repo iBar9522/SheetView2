@@ -32,9 +32,16 @@ public class BottomSheetContainerViewController<Content: UIViewController, Botto
         let height: CGFloat
         let initialOffset: CGFloat
         
-        public init(height: CGFloat, initialOffset: CGFloat) {
+        var isVisisble: Bool
+        
+        public init(
+            height: CGFloat,
+            initialOffset: CGFloat,
+            isVisisble: Bool = false
+        ) {
             self.height = height
             self.initialOffset = initialOffset
+            self.isVisisble = isVisisble
         }
     }
     
